@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+nav{
+  letter-spacing: .6rem;
+  box-shadow: none;
+  margin-top: -1.5%;
+}
+nav ul a,
+nav .brand-logo{color: #000;}
+nav ul a{
+  text-align: center
+}
+nav ul a:hover{
+  background-color: #757575;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5) 
+}
+.side-nav{
+  color: #000;
+}
+.side-nav  li a:hover{
+  background-color: #757575;
+  color: #fff;
+}
+
+
+.brand-h1{
+margin: -5% 0; 
+}
+.brand-h2{
+  font-size: 40px;
+  margin: 9% 0;
+}
+
+
+.bg{height: 100vh;}
+.bgcolorg{background-image: linear-gradient(to bottom, #80cbc4, #009688);}
+
+.space{margin-top: 24vh;}
+.space2{margin-top: 7%;}
+
+.shadow{text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.6);}
+.shadow2{text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+
+.title{
+  font-weight: 500;
+  font-size: 7.5rem;
+}
+.title2{
+  font-weight: 400;
+  font-size: 2em;
+}
+.animated2{animation-duration: 3.1s;}
+
+
+.section{
+  width: 100%;
+  top: 0;
+}
+.bgh, .parallaxworks{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgh{
+/*     background-image: url('../img/bghome.jpg'); */
+    background-image: linear-gradient(to bottom, red, #80cbc4);
+    min-height: 500px;
+
+}
+
+.caption{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  opacity: 0.7;
+}
+.caption span.border{
+  background-color: #111;
+  color: #fff;
+  padding: 30px;
+  font-size: 25px;
+  letter-spacing: 15px;
+}
+
+
+.input-field label {
+  color: #000;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+.input-field input[type=email]:focus + label {
+  color: #000;
+}
+.input-field textarea[name=message]:focus + label {
+  color: #000;
+}
+.input-field .prefix.active {
+  color: #000;
+}
+
+
+
+
+.slider.fullscreen{
+  height: 350px;
+}
+
+.slider .indicators {
+  left: 42%;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 15%;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-bottom: -15px;
+  border-radius: 9.5px 9.5px 0 0;
+}
+
+@media screen(max-width: 440px) {
+ ul .indicators {
+    width: 50%;
+  }  
+}

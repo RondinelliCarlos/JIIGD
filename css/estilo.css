@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav ul a,
+nav .brand-logo{color: #000;}
+
+.p{
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.p{
+	background-image: linear-gradient(to top, indigo, purple);
+	min-height: 550px;
+}
+
+.caption{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+.caption span.border{
+	background-color: #111;
+	color: #fff;
+	padding: 30px;
+	font-size: 25px;
+	letter-spacing: 15px;
+}
+
+.slides{
+	height: 250px;
+}
